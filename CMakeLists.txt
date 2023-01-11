@@ -18,7 +18,7 @@ FetchContent_MakeAvailable(nanobench)
 find_package(BLAS)
 
 message("BLAS Vendor: ${BLA_VENDOR}")
-message("BLAS Libraries: ${BLAS_LIBRARIES}")
+message("BLAS Libraries: ${BLA_LIBRARIES}")
 
 add_executable(bench-gemm bench-gemm.cxx)
 target_link_libraries(bench-gemm nanobench ${BLAS_LIBRARIES})
