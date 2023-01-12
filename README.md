@@ -18,7 +18,7 @@ Optimize single-threaded General Matrix Multiplication (GEMM) fo two square matr
 ## OpenBLAS
 ![](figures/gemm.png)
 
-## Building
+## Build
 
 ```
 mkdir build
